@@ -21,7 +21,7 @@ def main(argv):
     num_cycles = 2
     period = None
 
-    usage = 'waveform_to_pwl.py -i <input file> -o <output file> -n <number of cycles> -p <period>'
+    usage = 'pwl_cycle.py -i <input file> -o <output file> -n <number of cycles> -p <period>'
 
     try:
         opts, args = getopt.getopt(argv, "hi:o:n:p:", ["input_file=", "output_file=", "num_cycles=", "period="])

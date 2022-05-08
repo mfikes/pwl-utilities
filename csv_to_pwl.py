@@ -17,7 +17,7 @@ def main(argv):
     output_file = None
     sample_interval = None
 
-    usage = 'waveform_to_pwl.py -i <input file> -o <output file> -s <sample interval>'
+    usage = 'csv_to_pwl.py -i <input file> -o <output file> -s <sample interval>'
 
     try:
         opts, args = getopt.getopt(argv, "hi:o:s:", ["input_file=", "output_file=", "sample_interval="])
