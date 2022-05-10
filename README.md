@@ -20,6 +20,18 @@ python3 csv_to_pwl.py -i trace.csv -o trace.pwl -s 0.4ns
 
 The input and/or output files may be left unspecified, in which case stdin / stdout are used. 
 
+### `isf_to_pwl.py` 
+
+Converts an oscilloscope trace ISF file to a PWL file.
+
+Example:
+
+```
+python3 isf_to_pwl.py -i trace.isf -o trace.pwl
+```
+
+The output file may be left unspecified, in which case stdout is used. 
+
 ### `pwl_cycle.py`
 
 Create a PWL that repeats a given PWL a number of times using a specified period.
